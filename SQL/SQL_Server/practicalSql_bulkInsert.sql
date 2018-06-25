@@ -1,6 +1,6 @@
 /**
 --新建测试数据表
-CREATE TABLE test.dbo.ipTE 
+CREATE TABLE test01.dbo.ipTE 
 (   ip1 varchar(25),
     ip2 varchar(25)
 );
@@ -15,4 +15,4 @@ with
     --FIRSTROW=2  --数据从第二行开始插入
 )
 **/
-select count(*) as total from  test.dbo.ipTE ; --查询表中的记录总数
+select count(*) as total from  test01.dbo.ipTE ; --查询表中的记录总数
